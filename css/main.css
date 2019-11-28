@@ -1,0 +1,97 @@
+/* Navbar */
+.main-logo {
+  width: 150px;
+}
+
+.socials {
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+  display: inline-flex;
+}
+
+.socials-button {
+  margin: 0 5%;
+}
+
+.nav-item {
+  margin: 0 10%;
+}
+
+.navbar {
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.fa-linkedin {
+  font-size: 25px;
+  color: #979fd6;
+}
+
+.fa-twitter-square {
+  font-size: 25px;
+  color: #e0aaee;
+}
+
+.fa-instagram {
+  font-size: 25px;
+  color: #e0b29c;
+}
+
+
+/* Homepage */
+.body {
+  font-family: 'Open Sans', sans-serif;
+}
+.main-content {
+  width: 60%;
+  margin: auto;
+}
+
+.device-images {
+  width: 100px;
+}
+
+.phone-icon {
+  max-width: 50px;
+  display: block;
+}
+
+.tablet-icon {
+  max-width: 100px;
+  display: block;
+}
+
+.computer-icon {
+  max-width: 100px;
+  display: block;
+}
+
+.what-we-do {
+  padding: 10% 0;
+}
+
+.what-we-do p {
+  padding: 10%;
+}
+
+.right-content {
+  float:right;
+}
+
+@media only screen  and (max-width: 768px;) {
+  .brand-video {
+    display: none;
+  }
+}
+
+@media only screen  and (max-width: 990px;) {
+  .navbar {
+    width: 100%;
+  }
+}
