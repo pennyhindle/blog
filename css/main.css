@@ -28,6 +28,10 @@
   border: 0;
 }
 
+.navbar-toggler:focus {
+  outline: 0;
+}
+
 .fa-linkedin {
   font-size: 25px;
   color: #979fd6;
@@ -42,7 +46,6 @@
   font-size: 25px;
   color: #e0b29c;
 }
-
 
 /* Homepage */
 .body {
@@ -84,14 +87,16 @@
   float:right;
 }
 
-@media only screen  and (max-width: 768px;) {
-  .brand-video {
-    display: none;
-  }
+@media only screen and (max-width: 768px) {
+
 }
 
-@media only screen  and (max-width: 990px;) {
+@media screen and (max-width: 990px) {
   .navbar {
     width: 100%;
+  }
+
+  .socials {
+    display: block;
   }
 }
