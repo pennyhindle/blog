@@ -203,6 +203,7 @@ a {
 
 .footer-socials-button {
   margin: 0 5%;
+  text-align: left;
 
 }
 
@@ -214,8 +215,14 @@ a {
   margin-right: 1%;
 }
 
-@media only screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
+  .footer-socials-button {
+    display: block;
+  }
+  .footer-socials {
+    width: 30%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 990px) {
