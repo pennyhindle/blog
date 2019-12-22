@@ -131,15 +131,11 @@ a {
 
 /* TIMELINE  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
- main {
-	 min-width: 300px;
-	 max-width: 500px;
-	 margin: auto;
-}
- .timeline-paragraph {
-	 font-size: 1em;
-	 line-height: 1.75em;
+
+ .timeline-paragraph-1 {
 	 border-top: 3px solid;
+   border-right: 3px solid;
+   border-bottom: 3px solid;
 	 border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
 	 border-image-slice: 1;
 	 border-width: 3px;
@@ -149,8 +145,44 @@ a {
 	 position: relative;
 	 color: #34435e;
 }
- .timeline-paragraph:before {
-	 content: counter(section);
+.timeline-paragraph-2 {
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+}
+.timeline-paragraph-3 {
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+}
+.timeline-paragraph-4 {
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+}
+ .timeline-paragraph-1:before {
+	 content: "2015";
 	 position: absolute;
 	 border-radius: 50%;
 	 padding: 10px;
@@ -161,31 +193,62 @@ a {
 	 line-height: 1.25em;
 	 color: #fff;
 	 font-size: 1em;
+   left: 100%;
+   margin-left: -20px;
 }
- .timeline-paragraph:nth-child(odd) {
+ /* .timeline-paragraph-1:nth-child(odd) {
 	 border-right: 3px solid;
 	 padding-left: 0;
-}
- .timeline-paragraph:nth-child(odd):before {
+} */
+ /* .timeline-paragraph-1:nth-child(odd):before {
 	 left: 100%;
 	 margin-left: -20px;
+} */
+.timeline-paragraph-2:before {
+  content: "2017";
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;;
+  width: 50px;;
+  background-color: #34435e;
+  text-align: center;
+  line-height: 1.25em;
+  color: #fff;
+  font-size: 1em;
+  right: 100%;
+  margin-right: -20px;
 }
- .timeline-paragraph:nth-child(even) {
-	 border-left: 3px solid;
-	 padding-right: 0;
+
+.timeline-paragraph-3:before {
+  content: "2018";
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;;
+  width: 50px;;
+  background-color: #34435e;
+  text-align: center;
+  line-height: 1.25em;
+  color: #fff;
+  font-size: 1em;
+  left: 100%;
+  margin-left: -20px;
 }
- .timeline-paragraph:nth-child(even):before {
-	 right: 100%;
-	 margin-right: -20px;
-}
- .timeline-paragraph:first-child {
-	 border-top: 0;
-	 border-top-right-radius: 0;
-	 border-top-left-radius: 0;
-}
- .timeline-paragraph:last-child {
-	 border-bottom-right-radius: 0;
-	 border-bottom-left-radius: 0;
+.timeline-paragraph-4:before {
+  content: "2019";
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;;
+  width: 50px;;
+  background-color: #34435e;
+  text-align: center;
+  line-height: 1.25em;
+  color: #fff;
+  font-size: 1em;
+  right: 100%;
+  margin-right: -20px;
 }
 
 .timeline-paragraph {
