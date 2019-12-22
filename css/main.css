@@ -135,9 +135,6 @@ a {
 }
 
 
-/* footer */
-
-
 /* TIMELINE  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
@@ -248,7 +245,6 @@ a {
 .footer-socials-button {
   margin: 0 5%;
   text-align: left;
-
 }
 
 .footer a {
@@ -282,6 +278,10 @@ a {
   .footer-socials {
     width: 35%;
     margin: auto;
+  }
+
+  .career {
+    margin-top: 50%;
   }
 }
 
