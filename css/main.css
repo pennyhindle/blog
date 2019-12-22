@@ -136,46 +136,38 @@ a {
 	 border-top: 3px solid;
    border-right: 3px solid;
    border-bottom: 3px solid;
-	 border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
-	 border-image-slice: 1;
-	 border-width: 3px;
+	 /* border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+	 border-image-slice: 1; */
 	 margin: 0;
 	 padding: 40px;
 	 position: relative;
-	 color: #34435e;
 }
 .timeline-paragraph-2 {
   border-left: 3px solid;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
-  border-image-slice: 1;
-  border-width: 3px;
+  /* border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1; */
   margin: 0;
   padding: 40px;
   position: relative;
-  color: #34435e;
 }
 .timeline-paragraph-3 {
   border-right: 3px solid;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
-  border-image-slice: 1;
-  border-width: 3px;
+  /* border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1; */
   margin: 0;
   padding: 40px;
   position: relative;
-  color: #34435e;
 }
 .timeline-paragraph-4 {
   border-left: 3px solid;
   border-bottom: 3px solid;
-  border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
-  border-image-slice: 1;
-  border-width: 3px;
+  /* border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
+  border-image-slice: 1; */
   margin: 0;
   padding: 40px;
   position: relative;
-  color: #34435e;
 }
  /* .timeline-paragraph-1:before {
 	 content: "2015";
