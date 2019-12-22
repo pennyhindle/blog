@@ -162,14 +162,13 @@ a {
 }
 .timeline-paragraph-4 {
   border-left: 3px solid;
-  border-bottom: 3px solid;
   /* border-image: linear-gradient(to right, #000000 0%, #e8e8e8 100%);
   border-image-slice: 1; */
   margin: 0;
   padding: 40px;
   position: relative;
 }
- /* .timeline-paragraph-1:before {
+ .timeline-paragraph-1:before {
 	 content: "2015";
 	 position: absolute;
 	 border-radius: 50%;
@@ -222,7 +221,7 @@ a {
   color: #fff;
   right: 100%;
   margin-right: -20px;
-} */
+}
 
 .timeline-paragraph {
   color: #363e5c;
