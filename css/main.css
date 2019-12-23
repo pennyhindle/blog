@@ -240,6 +240,7 @@ a {
   min-height: 100px;
   padding: 5%;
   text-align: center;
+  padding: 10% 0;
 }
 
 .footer-socials-button {
@@ -274,6 +275,7 @@ a {
 @media screen and (max-width: 768px) {
   .footer-socials-button {
     display: block;
+    padding-bottom: 5%;
   }
   .footer-socials {
     width: 35%;
@@ -290,7 +292,22 @@ a {
     width: 100%;
   }
 
-  .socials {
-    display: block;
+  .navbar-nav {
+    background-color: #ebf8ff;
+    min-height: 100%;
   }
+
+  .socials {
+    left: 0;
+    position: inherit;
+    text-align: center;
+  }
+
+  .socials-button {
+    margin: 0 10%;
+  }
+
+  /* .socials {
+    display: block;
+  } */
 }

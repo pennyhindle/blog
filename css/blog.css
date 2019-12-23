@@ -11,6 +11,7 @@
   text-align: left;
   width: 60%;
   margin-bottom: 5%;
+  min-width: 300px;
 }
 
 a:hover {
@@ -28,7 +29,7 @@ a:hover {
   display: inline-block;
 }
 
-.blog-post .col-sm-4 {
+.blog-post .col-4 {
   padding: 0;
 }
 
@@ -39,9 +40,27 @@ a:hover {
 @media screen and (max-width: 768px) {
   .blog-post {
     width: 90%;
+
+  }
+
+  .blog-title {
+    font-size: 14px;
+  }
+
+  .blog-post p {
+    max-width: 200px;
   }
 
   .blog-image {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .blog-title {
+    font-size: 18px;
+  }
+
+  .blog-summary {
+    font-size: 12px;
   }
 }
