@@ -40,11 +40,12 @@ a:hover {
 @media screen and (max-width: 768px) {
   .blog-post {
     width: 90%;
-
+    margin-bottom: 15%;
   }
 
   .blog-title {
     font-size: 14px;
+
   }
 
   .blog-post p {
