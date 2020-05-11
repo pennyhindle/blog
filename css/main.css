@@ -40,7 +40,11 @@ html {
 
 .nav-link {
   margin: 0 10%;
-  color: #6e6e6e;
+  color: #595959 !important;
+}
+
+.active {
+    font-weight: 600;
 }
 
 .navbar {
