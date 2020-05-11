@@ -1,9 +1,13 @@
-$(".move-up").on("click", function (e) {
-  e.preventDefault();
-  $("html, body").animate({scrollTop:"0"}, 600);
+$(".move-down").on("click", function (e) {
+    e.preventDefault();
+    $('html, body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top
+    }, 1000, 'linear');
 });
 
-$(".move-down").on("click", function (e) {
-  e.preventDefault();
-  $("html, body").animate({scrollTop:$("#career").offset().top}, 600);
+$(".move-up").on("click", function (e) {
+    e.preventDefault();
+    $('html, body').stop().animate({
+        scrollTop: 0
+    }, 1000, 'linear');
 });

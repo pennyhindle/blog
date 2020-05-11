@@ -70,13 +70,13 @@ html {
 
 /* Homepage */
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Muli', sans-serif;
+
 }
 
 a {
   text-decoration: none;
   color: #366dc7;
-  font-weight: bolder;
 }
 .main-content {
   width: 80%;
@@ -84,36 +84,10 @@ a {
   text-align: center;
 }
 
-.device-images {
-  width: 100px;
+.about-me {
+  height: 100vh;
 }
 
-.phone-icon {
-  max-width: 50px;
-  display: block;
-}
-
-.tablet-icon {
-  max-width: 100px;
-  display: block;
-}
-
-.computer-icon {
-  max-width: 100px;
-  display: block;
-}
-
-.what-we-do {
-  padding: 10% 0;
-}
-
-.what-we-do p {
-  padding: 10%;
-}
-
-.right-content {
-  float:right;
-}
 
 .main-image {
   margin: 10% 0;
@@ -139,10 +113,6 @@ a {
   width: 70%;
   margin: auto;
 }
-
-
-/* TIMELINE  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
  .timeline-paragraph-1 {
 	 border-top: 3px solid;

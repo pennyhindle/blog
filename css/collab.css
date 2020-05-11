@@ -92,3 +92,9 @@
 .date {
   font-size: 10px;
 }
+
+.collab-info {
+  width: 70%;
+  text-align: center;
+  margin: 3% auto;
+}
