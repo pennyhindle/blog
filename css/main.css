@@ -34,8 +34,13 @@ html {
   font-size: 20px;
 }
 
+.nav-social-svg {
+  height: 20px;
+}
+
 .nav-link {
   margin: 0 10%;
+  color: #6e6e6e;
 }
 
 .navbar {
@@ -245,6 +250,10 @@ a {
   text-align: left;
 }
 
+.footer-socials-button img {
+  width: 2%;
+}
+
 .footer a {
   color: black;
 }
@@ -270,18 +279,13 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .footer-socials-button {
-    display: block;
-    padding-bottom: 5%;
-  }
-  .footer-socials {
-    width: 35%;
-    margin: auto;
-  }
-
   .career {
     margin-top: 50%;
     width: 100%;
+  }
+
+  .footer-socials-button img {
+    width: 5%;
   }
 }
 
