@@ -7,8 +7,8 @@ html {
   color: #b0b0b0;
 }
 
-.move-down:hover {
-  color: black;
+.move-down img {
+  width: 2%;
 }
 
 /* Navbar */
@@ -61,26 +61,10 @@ html {
   outline: 0;
 }
 
-.fa-linkedin {
-  font-size: 18px;
-}
-
-.fa-twitter-square {
-  font-size: 18px;
-}
-
-.fa-instagram {
-  font-size: 18px;
-}
-
-.fa-envelope {
-  font-size: 18px;
-}
 
 /* Homepage */
 body {
   font-family: 'Muli', sans-serif;
-
 }
 
 a {
@@ -107,11 +91,6 @@ a {
 .bio {
   width: 70%;
   margin: auto;
-}
-
-.fa-sort-down {
-  font-size: 30px;
-  color: black;
 }
 
 .career-heading {
@@ -278,9 +257,10 @@ a {
   color: #b0b0b0;
 }
 
-.move-up:hover {
-  color: black;
+.move-up img {
+  width: 15%;
 }
+
 
 @media screen and (max-width: 768px) {
   .career {
@@ -291,6 +271,14 @@ a {
   .footer-socials-button img {
     width: 5%;
   }
+
+  .move-down img {
+    width: 5%;
+  }
+
+  .move-up img {
+    width: 15%;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -299,8 +287,11 @@ a {
   }
 
   .navbar-nav {
-    background-color: #ebf8ff;
     min-height: 100%;
+  }
+
+  .nav-link {
+    text-align: center;
   }
 
   .socials {
@@ -313,7 +304,4 @@ a {
     margin: 0 10%;
   }
 
-  /* .socials {
-    display: block;
-  } */
 }
