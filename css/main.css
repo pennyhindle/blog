@@ -251,12 +251,6 @@ a {
   margin-bottom: 2%;
 }
 
-.move-up {
-  font-size: 24px;
-  float: right;
-  color: #b0b0b0;
-}
-
 .move-up img {
   width: 15%;
 }
@@ -277,7 +271,7 @@ a {
   }
 
   .move-up img {
-    width: 15%;
+    width: 5%;
   }
 }
 
@@ -292,6 +286,7 @@ a {
 
   .nav-link {
     text-align: center;
+    padding: 5%;
   }
 
   .socials {
@@ -303,5 +298,4 @@ a {
   .socials-button {
     margin: 0 10%;
   }
-
 }
