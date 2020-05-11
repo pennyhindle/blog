@@ -1,20 +1,12 @@
-.lounge{
-background-image: url("../img/lounge.jpg");
-width: 100%;
-min-height: 300px;
-background-size: cover;
-
-}
-
 .motel {
-  background-image: url("../img/motel.jpg");
+  background-image: url("../img/motel.png");
   width: 100%;
   min-height: 300px;
   background-size: cover;
 }
 
 .jeneral {
-    background-image: url("../img/jeneral.jpg");
+    background-image: url("../img/jeneral.png");
     width: 100%;
     min-height: 300px;
     background-size: cover;
