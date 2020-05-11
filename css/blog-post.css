@@ -1,0 +1,12 @@
+.blog-post {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.blog-title {
+text-align: center;
+}
+
+.blog-date {
+  text-align: center;
+}

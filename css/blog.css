@@ -37,6 +37,7 @@ a:hover {
   max-width: 400px;
 }
 
+
 @media screen and (max-width: 768px) {
   .blog-post {
     width: 90%;

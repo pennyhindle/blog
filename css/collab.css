@@ -1,0 +1,102 @@
+.lounge{
+background-image: url("../img/lounge.jpg");
+width: 100%;
+min-height: 300px;
+background-size: cover;
+
+}
+
+.motel {
+  background-image: url("../img/motel.jpg");
+  width: 100%;
+  min-height: 300px;
+  background-size: cover;
+}
+
+.jeneral {
+    background-image: url("../img/jeneral.jpg");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.hachu {
+    background-image: url("../img/hachu.png");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.cluse {
+    background-image: url("../img/cluse.png");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.zaful {
+    background-image: url("../img/zaful.png");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.daisy {
+    background-image: url("../img/daisy.png");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.collab-page {
+  width: 80%;
+  margin: auto;
+}
+
+.instagram-collabs .image {
+  margin: 10% 0;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.date {
+  font-size: 10px;
+}
